@@ -4,10 +4,10 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.0.1'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
-        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.4.18"
-        classpath 'org.owasp:dependency-check-gradle:3.3.2'
+        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.8.2'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.0'
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.7.2"
+        classpath 'org.owasp:dependency-check-gradle:3.3.4'
     }
 }
 description = 'A Swagger assertion library'
