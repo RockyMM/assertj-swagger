@@ -41,9 +41,9 @@ dependencies {
     compile "io.swagger:swagger-compat-spec-parser:1.0.42"
     compile "commons-collections:commons-collections:3.2.2"
     compile "org.slf4j:slf4j-api:1.7.26"
-    compile "org.assertj:assertj-core:3.9.1"
-    testCompile "junit:junit:4.11"
-    testCompile "ch.qos.logback:logback-classic:1.1.2"
+    compile "org.assertj:assertj-core:3.12.0"
+    testCompile "junit:junit:4.12"
+    testCompile "ch.qos.logback:logback-classic:1.2.3"
 
 }
 
